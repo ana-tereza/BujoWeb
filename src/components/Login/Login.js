@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import './index.css';
 import Label from '../Label';
 
 class Login extends Component {
@@ -7,7 +7,7 @@ class Login extends Component {
     return (
       <div className="center">
         <form className="pure-form pure-form-stacked">
-          <Label htmlFor="name" text="hmmaaa?" />
+          <Label htmlFor="name" text="Bem vindo ao Bullet Journal!" />
         </form>
       </div>
     );

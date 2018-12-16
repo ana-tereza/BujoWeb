@@ -17,11 +17,16 @@ div.header img.logo {
 }
 
 div.header h4.label {
-  color: #ffffff;
+display: inline;
+float: right;
+  color: #9233af;
   font-weight: normal;
-  line-height: 92px;
-  float: left;
-  margin: 0;
+}
+div.header h4.pipe {
+display: inline;
+float: right;
+  color: #736d75;
+  font-weight: normal;
 }
 
 @media (max-width: 992px) {
